@@ -1,0 +1,27 @@
+{% extends "layout.html" %} 
+<title> {% block title %}Primitiva | Generador de números primitiva {% endblock %}</title>
+{% block content %}
+ 
+<div class="jumbotron">
+  <h1 class="display-4">Generador de números para la Primitiva</h1>
+  <p class="lead">
+    Para generar la numeración para tú Primitiva pulsa el botón generar. ¡Buena Suerte!
+  </p>
+  <p>
+    <!-- Según las estadísticas el 80% de los acertantes jugaron con números al azar. Si no sabe que números jugar use nuestro generador de números. -->
+    ¿Deje que nuetro Generador de números elija su suerte!
+  </p>
+  <hr class="my-4" />
+  <div class="d-flex justify-content-between">
+    <p class="fila"> {{ random_number  }} </p>
+    <p class="fila"> {{ random_number1 }} </p>
+    <p class="fila"> {{ random_number2 }} </p>
+    <p class="fila"> {{ random_number3 }} </p>
+    <p class="fila"> {{ random_number4 }} </p>
+    <p class="fila"> {{ random_number5 }} </p>
+  
+</div>
+  
+</div>
+<a class="btn btn-primary btn-lg" href="/" role="button">Generar apuesta</a>
+{% endblock %}
