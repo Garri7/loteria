@@ -1,5 +1,5 @@
 # loteria
 Generardor de número aleatorios <br/>
-Aplicación desarrollado con python con el apoyo framework Flask
+Aplicación desarrollada con Python y el apoyo framework Flask
 
 
